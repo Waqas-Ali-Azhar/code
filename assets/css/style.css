@@ -1,0 +1,118 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+}
+ul li{
+	display: inline-block;
+}
+
+#menu .link{
+	/*background: red;*/
+	color: white;
+	font-weight: 400;
+	padding: 10px 15px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+
+#menu .link:hover{
+	background: orange;
+	color: white;
+	font-size: 18px;
+}
+
+.ib{
+	display: inline-block;
+}
+
+
+
+.btn{
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 4px;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.btn-success{
+	background: #2B3A55;
+	color: white;
+}
+
+.btn-progress{
+	background: #CE7777;
+	color: white;
+}
+
+.image-wrapper{
+	width: 80px;
+	height: 60px;
+}
+
+.image-wrapper img{
+	width: 100%;
+	height: auto;
+}
+
+header{
+	height: 80px;
+	background: #2B3A55;
+}
+
+header .left{
+	float: left;
+	width: 30%;
+}
+
+header .right{
+	float: right;
+	width: 30%;
+}
+
+.table{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.table-cell{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	width: fit-content;
+}
+
+footer{
+
+	background: #2B3A55 ;
+	height: 150px;
+}
+
+.main-container{
+	min-height: 600px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 130px 0px 0px 0px;
+}
+
+footer p{
+  color: white;
+  text-align: center;
+}
+
+
+.all-students table thead{
+  background: black;
+}
+
+.all-students table thead th{
+  color: white;
+}
+
+.all-students table tbody tr:nth-child(even){
+  color: white;
+  background: #59c359;
+}

@@ -1,0 +1,27 @@
+ul li{
+	display: inline-block;
+}
+
+#menu .link{
+	background: red;
+	color: white;
+	font-weight: 400;
+	padding: 10px 15px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+
+#menu .link:hover{
+	background: orange;
+	color: white;
+	font-size: 18px;
+}
+
+
+
+.product{
+	border: 1px solid black;
+	padding: 10px;
+	min-height:350px ;
+}
